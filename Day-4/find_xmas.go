@@ -47,9 +47,6 @@ func verify_xmas(origin []int, direction []int) bool {
 }
 
 func main() {
-	// idea here is to use DFS when an X is identified, similar to num of islands problem
-	// as long as we move left to the right, top bottom, we won't overcount as long as we start
-	// DFS searching when we identify an X.
 	// tasks:
 	// - read each line to become an array of strings
 	// - split each element into array of characters, creating a 2d array as a result
